@@ -18,7 +18,6 @@ app.get('/todos', async (req, res) => {
     res.json(todos);
 })
 
-
 app.post('/todos', async (req, res) => {
     const newTodos = req.body;
 
